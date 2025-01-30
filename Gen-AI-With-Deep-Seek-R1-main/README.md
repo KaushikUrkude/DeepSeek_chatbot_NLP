@@ -11,7 +11,7 @@ This repository contains a chatbot implementation using **DeepSeek 1.5B**, **Str
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Gen-AI-With-Deep-Seek-R1.git
+git clone https://github.com/KaushikUrkude/DeepSeek_chatbot_NLP.git
 cd Gen-AI-With-Deep-Seek-R1
 ```
 
