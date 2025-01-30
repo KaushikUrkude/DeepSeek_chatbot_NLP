@@ -27,10 +27,10 @@ pip install -r requirements.txt
 ```
 Ensure `requirements.txt` includes:
 ```
-deepseek
-langchain
 streamlit
-openai
+langchain_core
+langchain_community
+langchain_ollama
 ```
 
 ### 4. Download and Configure DeepSeek 1.5B Model
@@ -44,11 +44,6 @@ from deepseek import DeepSeek
 model = DeepSeek("deepseek-ai/deepseek-coder-1.5b")
 ```
 
-If using an API, configure your API key:
-```python
-import os
-os.environ["DEEPSEEK_API_KEY"] = "your_api_key_here"
-```
 
 ## Running the Chatbot
 ```bash
